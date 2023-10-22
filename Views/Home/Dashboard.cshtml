@@ -1,0 +1,39 @@
+
+ <link rel="stylesheet" href="~/css/style.css">
+@model string
+<div class="block4">
+
+
+<h1>Bienvenido @Context.Session.GetString("Nombre")</h1>
+
+<form action="/procesa/salida" method="POST">
+    <button type="submit">Cerrar Sesión</button>
+</form>
+</div>
+<div class="bock5">
+<p>Valor del tablero: @Context.Session.GetInt32("NumeroDash")</p>
+
+</div>
+<div class="block0">
+
+
+<div class="block1">
+
+<form method="post" action="/sumarUno">
+    <button type="submit" id="boton">+1</button>
+</form>
+
+<form method="post" action="/restarUno">
+    <button type="submit" id="boton">-1</button>
+</form>
+</div>
+<div class="block2">
+
+<form method="post" action="/multi">
+    <button type="submit" id="boton">x2</button>
+</form>
+<form method="post" action="/random">
+    <button type="submit" id="boton">Random</button>
+</form>
+</div>
+</div>

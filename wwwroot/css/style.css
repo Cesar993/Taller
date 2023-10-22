@@ -1,0 +1,35 @@
+.block0{
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  #boton{
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .block4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bock5{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+  }
+
+  .block1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .block2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
